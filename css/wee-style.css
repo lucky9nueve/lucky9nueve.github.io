@@ -1,0 +1,42 @@
+
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+ 
+    .w3-sidebar {width: 120px;background: #222;}
+
+    #main {margin-left: 120px}
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    
+    /*wee custom*/
+    .port-box{
+      margin-bottom: 25px;
+    }
+    .port-box h3{
+      font-size: 18px;
+      font-weight: 800;
+      margin: 0;
+    }
+    .port-box .port-dscrptn{
+      font-size: 14px;
+      margin: 0;
+    }
+    .port-box .port-link{
+      margin: 0 0 15px 0;
+      display: block;
+    }
+    .w33-page{
+        display: none;
+    }
+    #loading {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        width: 100vw;
+        height: 100vh;
+        background-color:#fff;
+        background-image: url("../images/logo-black.gif");
+        background-repeat: no-repeat;
+        background-position: center;
+    }

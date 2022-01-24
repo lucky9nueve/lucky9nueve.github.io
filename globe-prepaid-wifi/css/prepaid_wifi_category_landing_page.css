@@ -40,7 +40,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 999;
-  height: 50px;
+  height: 47px;
 }
 
 .prpd-wf-ctgry .pwc-anchr-box .pwc-anchr-list .item {
@@ -107,8 +107,16 @@ body {
   padding: 30px;
 }
 
+.prpd-wf-ctgry .pwc-fld-img-hldr {
+  display: none;
+}
+
+.prpd-wf-ctgry .pwc-fld-img-hldr img {
+  width: 100%;
+}
+
 .prpd-wf-ctgry .pwc-gahpw {
-  background: url(../img/pwc-gahpw.jpg);
+  background: url(../img/HPW-Hero-Banner-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -127,7 +135,7 @@ body {
 }
 
 .prpd-wf-ctgry .pwc-hpwbg {
-  background: url(../img/hpw-bg.jpg);
+  background: url(../img/HPW-Hero-Banner-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -150,7 +158,7 @@ body {
 }
 
 .prpd-wf-ctgry .pwc-ltea {
-  background: url(../img/ltea-bg.jpg);
+  background: url(../img/HPW-Hero-Banner-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -177,7 +185,7 @@ body {
 }
 
 .prpd-wf-ctgry .pwc-xhpw {
-  background: url(../img/xhpw.jpg);
+  background: url(../img/HPW-Hero-Banner-4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -201,7 +209,7 @@ body {
 }
 
 .prpd-wf-ctgry .pwc-mla {
-  background: url(../img/mla-bg.jpg);
+  background: url(../img/HPW-Hero-Banner-5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -228,7 +236,7 @@ body {
 }
 
 .prpd-wf-ctgry .pwc-myfi {
-  background: url(../img/myfi-bg.jpg);
+  background: url(../img/HPW-Hero-Banner-6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -489,11 +497,6 @@ body {
   .prpd-wf-ctgry .pwc-gap {
     display: none;
   }
-  .prpd-wf-ctgry .pwc-prdct-cntnt-dark {
-    background: #ffffff75;
-    padding: 15px;
-    border-radius: 5px;
-  }
   .prpd-wf-ctgry .pwc-prdct-cntnt-light {
     background: #00000075;
     padding: 15px;
@@ -504,6 +507,32 @@ body {
   }
   .prpd-wf-ctgry .pwc-cmpr .pwc-sb_ttl {
     padding: 0 15px;
+  }
+  .prpd-wf-ctgry .pwc-anchr-box .pwc-anchr-list a {
+    padding: 15px;
+    font-size: 14px;
+  }
+  .prpd-wf-ctgry .pwc-anchr-box {
+    height: 45px;
+  }
+  .prpd-wf-ctgry .pwc-anchr-box .pwc-anchr-list .owl-nav button {
+    width: 24px;
+    height: 24px;
+  }
+  .prpd-wf-ctgry .pwc-anchr-box .pwc-anchr-list .owl-nav button span {
+    top: -3px;
+    font-size: 23px;
+  }
+  .prpd-wf-ctgry .pwc-anchr-box .pwc-anchr-list .owl-nav .owl-next {
+    top: 11px;
+    right: 3px;
+  }
+  .prpd-wf-ctgry .pwc-anchr-box .pwc-anchr-list .owl-nav .owl-prev {
+    top: 11px;
+    left: 3px;
+  }
+  .prpd-wf-ctgry .pwc-fld {
+    padding: 30px !important;
   }
 }
 
@@ -518,10 +547,70 @@ body {
     width: 100%;
   }
   .prpd-wf-ctgry .pwc-dvcs .owl-nav .owl-prev {
-    left: -15px;
+    left: 15px;
   }
   .prpd-wf-ctgry .pwc-dvcs .owl-nav .owl-next {
-    right: -15px;
+    right: 15px;
+  }
+  .prpd-wf-ctgry .pwc-fld-img-hldr {
+    display: block;
+    margin-bottom: -5px;
+  }
+  .prpd-wf-ctgry .pwc-cntr-cnt {
+    height: auto;
+  }
+  .prpd-wf-ctgry .pwc-fld {
+    padding: 50px;
+  }
+  .prpd-wf-ctgry .pwc-gahpw {
+    background: #e9ded6;
+  }
+  .prpd-wf-ctgry .pwc-hpwbg {
+    background: #01aff6;
+  }
+  .prpd-wf-ctgry .pwc-ltea {
+    background: #000;
+  }
+  .prpd-wf-ctgry .pwc-xhpw {
+    background: #01aff6;
+  }
+  .prpd-wf-ctgry .pwc-mla {
+    background: #000;
+  }
+  .prpd-wf-ctgry .pwc-myfi {
+    background: #01aff6;
+  }
+  .prpd-wf-ctgry .pwc-gahpw .pwc-sb_ttl,
+  .prpd-wf-ctgry .pwc-gahpw .pwc-prdct_ttl {
+    color: #000;
+  }
+  .prpd-wf-ctgry .pwc-dsc {
+    color: #49372c;
+  }
+  .prpd-wf-ctgry .pwc-hpwbg .pwc-sb_ttl,
+  .prpd-wf-ctgry .pwc-ltea .pwc-sb_ttl,
+  .prpd-wf-ctgry .pwc-xhpw .pwc-sb_ttl,
+  .prpd-wf-ctgry .pwc-mla .pwc-sb_ttl,
+  .prpd-wf-ctgry .pwc-myfi .pwc-sb_ttl {
+    color: #fff;
+    opacity: 0.78;
+  }
+  .prpd-wf-ctgry .pwc-hpwbg .pwc-prdct_ttl,
+  .prpd-wf-ctgry .pwc-ltea .pwc-prdct_ttl,
+  .prpd-wf-ctgry .pwc-xhpw .pwc-prdct_ttl,
+  .prpd-wf-ctgry .pwc-mla .pwc-prdct_ttl,
+  .prpd-wf-ctgry .pwc-myfi .pwc-prdct_ttl {
+    color: #fff;
+    opacity: 1;
+  }
+  .prpd-wf-ctgry .pwc-hpwbg .pwc-dsc,
+  .prpd-wf-ctgry .pwc-ltea .pwc-dsc,
+  .prpd-wf-ctgry .pwc-xhpw .pwc-dsc,
+  .prpd-wf-ctgry .pwc-mla .pwc-dsc,
+  .prpd-wf-ctgry .pwc-myfi .pwc-dsc {
+    color: #fff;
+    opacity: 0.8;
+    font-weight: 600;
   }
 }
 /*# sourceMappingURL=prepaid_wifi_category_landing_page.css.map */

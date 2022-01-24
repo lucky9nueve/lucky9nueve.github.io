@@ -65,7 +65,7 @@ body {
     position: fixed;
     width: 100%;
     z-index: 999;
-    height: 50px;
+    height: 47px;
     .pwc-anchr-list {
       .item {
         text-align: center;
@@ -127,9 +127,16 @@ body {
   .pwc-fld {
     padding: 30px;
   }
+  .pwc-fld-img-hldr {
+    display: none;
+
+    img {
+      width: 100%;
+    }
+  }
 
   .pwc-gahpw {
-    background: url(../img/pwc-gahpw.jpg);
+    background: url(../img/HPW-Hero-Banner-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -144,7 +151,7 @@ body {
     }
   }
   .pwc-hpwbg {
-    background: url(../img/hpw-bg.jpg);
+    background: url(../img/HPW-Hero-Banner-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     .pwc-sb_ttl {
@@ -163,7 +170,7 @@ body {
   }
 
   .pwc-ltea {
-    background: url(../img/ltea-bg.jpg);
+    background: url(../img/HPW-Hero-Banner-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -186,7 +193,7 @@ body {
   }
 
   .pwc-xhpw {
-    background: url(../img/xhpw.jpg);
+    background: url(../img/HPW-Hero-Banner-4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -206,7 +213,7 @@ body {
   }
 
   .pwc-mla {
-    background: url(../img/mla-bg.jpg);
+    background: url(../img/HPW-Hero-Banner-5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -229,7 +236,7 @@ body {
   }
 
   .pwc-myfi {
-    background: url(../img/myfi-bg.jpg);
+    background: url(../img/HPW-Hero-Banner-6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -475,11 +482,6 @@ body {
     .pwc-gap {
       display: none;
     }
-    .pwc-prdct-cntnt-dark {
-      background: #ffffff75;
-      padding: 15px;
-      border-radius: 5px;
-    }
     .pwc-prdct-cntnt-light {
       background: #00000075;
       padding: 15px;
@@ -490,6 +492,32 @@ body {
     }
     .pwc-cmpr .pwc-sb_ttl {
       padding: 0 15px;
+    }
+    .pwc-anchr-box .pwc-anchr-list a {
+      padding: 15px;
+      font-size: 14px;
+    }
+    .pwc-anchr-box {
+      height: 45px;
+    }
+    .pwc-anchr-box .pwc-anchr-list .owl-nav button {
+      width: 24px;
+      height: 24px;
+    }
+    .pwc-anchr-box .pwc-anchr-list .owl-nav button span {
+      top: -3px;
+      font-size: 23px;
+    }
+    .pwc-anchr-box .pwc-anchr-list .owl-nav .owl-next {
+      top: 11px;
+      right: 3px;
+    }
+    .pwc-anchr-box .pwc-anchr-list .owl-nav .owl-prev {
+      top: 11px;
+      left: 3px;
+    }
+    .pwc-fld {
+      padding: 30px !important;
     }
   }
 
@@ -504,10 +532,70 @@ body {
       width: 100%;
     }
     .pwc-dvcs .owl-nav .owl-prev {
-      left: -15px;
+      left: 15px;
     }
     .pwc-dvcs .owl-nav .owl-next {
-      right: -15px;
+      right: 15px;
+    }
+    .pwc-fld-img-hldr {
+      display: block;
+      margin-bottom: -5px;
+    }
+    .pwc-cntr-cnt {
+      height: auto;
+    }
+    .pwc-fld {
+      padding: 50px;
+    }
+    .pwc-gahpw {
+      background: #e9ded6;
+    }
+    .pwc-hpwbg {
+      background: #01aff6;
+    }
+    .pwc-ltea {
+      background: #000;
+    }
+    .pwc-xhpw {
+      background: #01aff6;
+    }
+    .pwc-mla {
+      background: #000;
+    }
+    .pwc-myfi {
+      background: #01aff6;
+    }
+    .pwc-gahpw .pwc-sb_ttl,
+    .pwc-gahpw .pwc-prdct_ttl {
+      color: #000;
+    }
+    .pwc-dsc {
+      color: #49372c;
+    }
+    .pwc-hpwbg .pwc-sb_ttl,
+    .pwc-ltea .pwc-sb_ttl,
+    .pwc-xhpw .pwc-sb_ttl,
+    .pwc-mla .pwc-sb_ttl,
+    .pwc-myfi .pwc-sb_ttl {
+      color: #fff;
+      opacity: 0.78;
+    }
+    .pwc-hpwbg .pwc-prdct_ttl,
+    .pwc-ltea .pwc-prdct_ttl,
+    .pwc-xhpw .pwc-prdct_ttl,
+    .pwc-mla .pwc-prdct_ttl,
+    .pwc-myfi .pwc-prdct_ttl {
+      color: #fff;
+      opacity: 1;
+    }
+    .pwc-hpwbg .pwc-dsc,
+    .pwc-ltea .pwc-dsc,
+    .pwc-xhpw .pwc-dsc,
+    .pwc-mla .pwc-dsc,
+    .pwc-myfi .pwc-dsc {
+      color: #fff;
+      opacity: 0.8;
+      font-weight: 600;
     }
   }
 }

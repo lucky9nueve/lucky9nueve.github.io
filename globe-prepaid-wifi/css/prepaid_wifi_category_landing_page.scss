@@ -56,12 +56,16 @@ body {
 }
 
 .prpd-wf-ctgry {
+  .pwc-sticky-top {
+    top: 0 !important;
+  }
   .pwc-anchr-box {
-    top: 0;
+    bottom: 0;
     background: #000;
     position: fixed;
     width: 100%;
     z-index: 999;
+    height: 50px;
     .pwc-anchr-list {
       .item {
         text-align: center;

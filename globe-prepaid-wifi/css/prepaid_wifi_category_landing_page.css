@@ -30,12 +30,17 @@ body {
   height: 100vh;
 }
 
+.prpd-wf-ctgry .pwc-sticky-top {
+  top: 0 !important;
+}
+
 .prpd-wf-ctgry .pwc-anchr-box {
-  top: 0;
+  bottom: 0;
   background: #000;
   position: fixed;
   width: 100%;
   z-index: 999;
+  height: 50px;
 }
 
 .prpd-wf-ctgry .pwc-anchr-box .pwc-anchr-list .item {

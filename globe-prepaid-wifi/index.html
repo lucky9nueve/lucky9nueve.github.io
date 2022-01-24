@@ -408,6 +408,18 @@
             }
           })
 
+
+          jQuery(window).scroll(function () {
+              if (jQuery(window).scrollTop() >= 500 ) {
+                jQuery('.pwc-anchr-box').addClass('pwc-sticky-top');
+              }
+              else {
+                jQuery('.pwc-anchr-box').removeClass('pwc-sticky-top');
+
+              }
+            });
+          
+
       </script>
     </main>
     
